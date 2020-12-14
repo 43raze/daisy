@@ -1,0 +1,1619 @@
+@font-face {
+  font-family: "PF Encore Sans Pro Hairline";
+  src: url("PFEncoreSansPro-HairlineItalic.eot");
+  src: local("PFEncoreSansPro-HairlineItalic"), url("PFEncoreSansPro-HairlineItalic.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-HairlineItalic.woff2") format("woff2"), url("PFEncoreSansPro-HairlineItalic.woff") format("woff"), url("PFEncoreSansPro-HairlineItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro UltraBlack";
+  src: url("PFEncoreSansPro-UltraBlack.eot");
+  src: local("PFEncoreSansPro-UltraBlack"), url("PFEncoreSansPro-UltraBlack.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-UltraBlack.woff2") format("woff2"), url("PFEncoreSansPro-UltraBlack.woff") format("woff"), url("PFEncoreSansPro-UltraBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro ExtraThin";
+  src: url("PFEncoreSansPro-ExtraThin.eot");
+  src: local("PFEncoreSansPro-ExtraThin"), url("PFEncoreSansPro-ExtraThin.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-ExtraThin.woff2") format("woff2"), url("PFEncoreSansPro-ExtraThin.woff") format("woff"), url("PFEncoreSansPro-ExtraThin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro";
+  src: url("PFEncoreSansPro-Thin.eot");
+  src: local("PFEncoreSansPro-Thin"), url("PFEncoreSansPro-Thin.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-Thin.woff2") format("woff2"), url("PFEncoreSansPro-Thin.woff") format("woff"), url("PFEncoreSansPro-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro ExtraThin";
+  src: url("PFEncoreSansPro-ExtraThinItalic.eot");
+  src: local("PFEncoreSansPro-ExtraThinItalic"), url("PFEncoreSansPro-ExtraThinItalic.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-ExtraThinItalic.woff2") format("woff2"), url("PFEncoreSansPro-ExtraThinItalic.woff") format("woff"), url("PFEncoreSansPro-ExtraThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro";
+  src: url("PFEncoreSansPro-Medium.eot");
+  src: local("PFEncoreSansPro-Medium"), url("PFEncoreSansPro-Medium.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-Medium.woff2") format("woff2"), url("PFEncoreSansPro-Medium.woff") format("woff"), url("PFEncoreSansPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro UltraThin";
+  src: url("PFEncoreSansPro-UltraThin.eot");
+  src: local("PFEncoreSansPro-UltraThin"), url("PFEncoreSansPro-UltraThin.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-UltraThin.woff2") format("woff2"), url("PFEncoreSansPro-UltraThin.woff") format("woff"), url("PFEncoreSansPro-UltraThin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro UltraBlack";
+  src: url("PFEncoreSansPro-UltraBlackItalic.eot");
+  src: local("PFEncoreSansPro-UltraBlackItalic"), url("PFEncoreSansPro-UltraBlackItalic.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-UltraBlackItalic.woff2") format("woff2"), url("PFEncoreSansPro-UltraBlackItalic.woff") format("woff"), url("PFEncoreSansPro-UltraBlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro";
+  src: url("PFEncoreSansPro-BlackItalic.eot");
+  src: local("PFEncoreSansPro-BlackItalic"), url("PFEncoreSansPro-BlackItalic.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-BlackItalic.woff2") format("woff2"), url("PFEncoreSansPro-BlackItalic.woff") format("woff"), url("PFEncoreSansPro-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro UltraThin";
+  src: url("PFEncoreSansPro-UltraThinItalic.eot");
+  src: local("PFEncoreSansPro-UltraThinItalic"), url("PFEncoreSansPro-UltraThinItalic.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-UltraThinItalic.woff2") format("woff2"), url("PFEncoreSansPro-UltraThinItalic.woff") format("woff"), url("PFEncoreSansPro-UltraThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro";
+  src: url("PFEncoreSansPro-MediumItalic.eot");
+  src: local("PFEncoreSansPro-MediumItalic"), url("PFEncoreSansPro-MediumItalic.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-MediumItalic.woff2") format("woff2"), url("PFEncoreSansPro-MediumItalic.woff") format("woff"), url("PFEncoreSansPro-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro Hairline";
+  src: url("PFEncoreSansPro-Hairline.eot");
+  src: local("PFEncoreSansPro-Hairline"), url("PFEncoreSansPro-Hairline.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-Hairline.woff2") format("woff2"), url("PFEncoreSansPro-Hairline.woff") format("woff"), url("PFEncoreSansPro-Hairline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro";
+  src: url("PFEncoreSansPro-Bold.eot");
+  src: local("PFEncoreSansPro-Bold"), url("PFEncoreSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-Bold.woff2") format("woff2"), url("PFEncoreSansPro-Bold.woff") format("woff"), url("PFEncoreSansPro-Bold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro";
+  src: url("PFEncoreSansPro-Regular.eot");
+  src: local("PFEncoreSansPro-Regular"), url("PFEncoreSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-Regular.woff2") format("woff2"), url("PFEncoreSansPro-Regular.woff") format("woff"), url("PFEncoreSansPro-Regular.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro";
+  src: url("PFEncoreSansPro-Black.eot");
+  src: local("PFEncoreSansPro-Black"), url("PFEncoreSansPro-Black.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-Black.woff2") format("woff2"), url("PFEncoreSansPro-Black.woff") format("woff"), url("PFEncoreSansPro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro";
+  src: url("PFEncoreSansPro-BoldItalic.eot");
+  src: local("PFEncoreSansPro-BoldItalic"), url("PFEncoreSansPro-BoldItalic.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-BoldItalic.woff2") format("woff2"), url("PFEncoreSansPro-BoldItalic.woff") format("woff"), url("PFEncoreSansPro-BoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro";
+  src: url("PFEncoreSansPro-LightItalic.eot");
+  src: local("PFEncoreSansPro-LightItalic"), url("PFEncoreSansPro-LightItalic.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-LightItalic.woff2") format("woff2"), url("PFEncoreSansPro-LightItalic.woff") format("woff"), url("PFEncoreSansPro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro Book";
+  src: url("PFEncoreSansPro-Book.eot");
+  src: local("PFEncoreSansPro-Book"), url("PFEncoreSansPro-Book.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-Book.woff2") format("woff2"), url("PFEncoreSansPro-Book.woff") format("woff"), url("PFEncoreSansPro-Book.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro";
+  src: url("PFEncoreSansPro-Light.eot");
+  src: local("PFEncoreSansPro-Light"), url("PFEncoreSansPro-Light.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-Light.woff2") format("woff2"), url("PFEncoreSansPro-Light.woff") format("woff"), url("PFEncoreSansPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro";
+  src: url("PFEncoreSansPro-Italic.eot");
+  src: local("PFEncoreSansPro-Italic"), url("PFEncoreSansPro-Italic.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-Italic.woff2") format("woff2"), url("PFEncoreSansPro-Italic.woff") format("woff"), url("PFEncoreSansPro-Italic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro Book";
+  src: url("PFEncoreSansPro-BookItalic.eot");
+  src: local("PFEncoreSansPro-BookItalic"), url("PFEncoreSansPro-BookItalic.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-BookItalic.woff2") format("woff2"), url("PFEncoreSansPro-BookItalic.woff") format("woff"), url("PFEncoreSansPro-BookItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF Encore Sans Pro";
+  src: url("PFEncoreSansPro-ThinItalic.eot");
+  src: local("PFEncoreSansPro-ThinItalic"), url("PFEncoreSansPro-ThinItalic.eot?#iefix") format("embedded-opentype"), url("PFEncoreSansPro-ThinItalic.woff2") format("woff2"), url("PFEncoreSansPro-ThinItalic.woff") format("woff"), url("PFEncoreSansPro-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* ---------------------------
+! Fonts END
+--------------------------- */
+/* ---------------------------
+! NORMALIZE
+--------------------------- */
+/* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+       ========================================================================== */
+/**
+     * Remove the margin in all browsers.
+     */
+body {
+  margin: 0;
+}
+
+/**
+     * Render the `main` element consistently in IE.
+     */
+main {
+  display: block;
+}
+
+/**
+     * Correct the font size and margin on `h1` elements within `section` and
+     * `article` contexts in Chrome, Firefox, and Safari.
+     */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+       ========================================================================== */
+/**
+     * 1. Add the correct box sizing in Firefox.
+     * 2. Show the overflow in Edge and IE.
+     */
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+       ========================================================================== */
+/**
+     * Remove the gray background on active links in IE 10.
+     */
+a {
+  background-color: transparent;
+}
+
+/**
+     * 1. Remove the bottom border in Chrome 57-
+     * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+     */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+     * Add the correct font weight in Chrome, Edge, and Safari.
+     */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+     * Add the correct font size in all browsers.
+     */
+small {
+  font-size: 80%;
+}
+
+/**
+     * Prevent `sub` and `sup` elements from affecting the line height in
+     * all browsers.
+     */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+       ========================================================================== */
+/**
+     * Remove the border on images inside links in IE 10.
+     */
+img {
+  border-style: none;
+}
+
+/* Forms
+       ========================================================================== */
+/**
+     * 1. Change the font styles in all browsers.
+     * 2. Remove the margin in Firefox and Safari.
+     */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+     * Show the overflow in IE.
+     * 1. Show the overflow in Edge.
+     */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+     * Remove the inheritance of text transform in Edge, Firefox, and IE.
+     * 1. Remove the inheritance of text transform in Firefox.
+     */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+     * Correct the inability to style clickable types in iOS and Safari.
+     */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+     * Remove the inner border and padding in Firefox.
+     */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+     * Restore the focus styles unset by the previous rule.
+     */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+     * Correct the padding in Firefox.
+     */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+     * 1. Correct the text wrapping in Edge and IE.
+     * 2. Correct the color inheritance from `fieldset` elements in IE.
+     * 3. Remove the padding so developers are not caught out when they zero out
+     *    `fieldset` elements in all browsers.
+     */
+legend {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+     * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+     */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+     * Remove the default vertical scrollbar in IE 10+.
+     */
+textarea {
+  overflow: auto;
+}
+
+/**
+     * 1. Add the correct box sizing in IE 10.
+     * 2. Remove the padding in IE 10.
+     */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+     * Correct the cursor style of increment and decrement buttons in Chrome.
+     */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+     * 1. Correct the odd appearance in Chrome and Safari.
+     * 2. Correct the outline style in Safari.
+     */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+     * Remove the inner padding in Chrome and Safari on macOS.
+     */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+     * 1. Correct the inability to style clickable types in iOS and Safari.
+     * 2. Change font properties to `inherit` in Safari.
+     */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+       ========================================================================== */
+/*
+     * Add the correct display in Edge, IE 10+, and Firefox.
+     */
+details {
+  display: block;
+}
+
+/*
+     * Add the correct display in all browsers.
+     */
+summary {
+  display: list-item;
+}
+
+/* Misc
+       ========================================================================== */
+/**
+     * Add the correct display in IE 10+.
+     */
+template {
+  display: none;
+}
+
+/**
+     * Add the correct display in IE 10.
+     */
+[hidden] {
+  display: none;
+}
+
+/* ---------------------------
+  ! NORMALIZE END
+  --------------------------- */
+/* ---------------------------
+  ? Basic styles
+  --------------------------- */
+:root {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 0.75em;
+}
+
+@media (min-width: 800px) {
+  :root {
+    font-size: 0.875em;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    font-size: 1em;
+  }
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "PF Encore Sans Pro", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*::selection {}*/
+/*.main {
+      
+  }*/
+/* ---------------------------
+  ? Basic END
+  --------------------------- */
+/* ---------------------------
+? Size H1-H6
+--------------------------- */
+/* ---------------------------
+? Colors
+--------------------------- */
+/* ---------------------------
+! Header
+--------------------------- */
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  font-family: "PF Encore Sans Pro", sans-serif;
+}
+
+.header__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding-top: 22px;
+}
+
+.header__logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px;
+  overflow: hidden;
+}
+
+.header__logo img {
+  display: block;
+}
+
+.header__burger {
+  display: none;
+}
+
+.header__nav {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 470px;
+          flex: 0 0 470px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: self-end;
+      -ms-flex-align: self-end;
+          align-items: self-end;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  list-style: none;
+}
+
+.header__nav-link a {
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 0;
+  line-height: normal;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.header__nav-link a:hover {
+  color: #fc635e;
+  border-bottom: 3px solid #fc635e;
+}
+
+.header__nav-link .cerrent {
+  color: #fc635e;
+  border-bottom: 3px solid #fc635e;
+}
+
+/* ---------------------------
+  ! Header END
+  --------------------------- */
+/* ---------------------------
+! First__page
+--------------------------- */
+.clients {
+  background-image: url(../img/background/first__bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  font-family: "PF Encore Sans Pro", sans-serif;
+}
+
+.clients::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.clients__row {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  padding: 280px 0 0;
+}
+
+.clients__row h1 {
+  font-size: 51px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+}
+
+.clients__row h1 span {
+  color: #fc635e;
+}
+
+.clients__row h1::before,
+.clients__row h1::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 108px;
+  height: 10px;
+  background-color: #7d7d79;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+}
+
+.clients__row h1::before {
+  left: 0px;
+}
+
+.clients__row h1::after {
+  background-color: #7d7d79;
+  right: 0px;
+}
+
+.clients__row p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.clients__btn-bottom {
+  background: url(../img/background/mouse.png);
+  background-repeat: no-repeat;
+  background-position: 100% -77%;
+  width: 50%;
+  min-height: 325px;
+  margin: 155px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+}
+
+.btn__text {
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  width: 205px;
+  margin: 0 auto;
+  color: #fc635e;
+  border: 1px solid #fc635e;
+  border-radius: 10px;
+  padding: 14px 20px;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  position: relative;
+  z-index: 3;
+  display: inline-block;
+}
+
+.btn__text:hover {
+  background-color: #fc635e;
+  color: #fff;
+}
+
+.btn__arrow-down {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: auto auto 30px;
+  text-decoration: none;
+  position: relative;
+  z-index: 3;
+  border: 1px solid #fc635e;
+  border-radius: 50%;
+  background-color: #fc635e;
+}
+
+.btn__arrow-down::after {
+  content: "\2193";
+  font-size: 30px;
+  position: absolute;
+  left: 17px;
+  bottom: 6%;
+  color: #fff;
+}
+
+/* ---------------------------
+! First__page END
+--------------------------- */
+/* ---------------------------
+!Second__page
+--------------------------- */
+.work {
+  font-family: "PF Encore Sans Pro", sans-serif;
+  text-align: center;
+}
+
+.work__row {
+  padding: 60px 0px 15px;
+}
+
+.work__row h2 {
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #868686;
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #adadad;
+  padding-bottom: 10px;
+}
+
+.work__row h2 span {
+  color: #fc635e;
+}
+
+.work__row p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #adadad;
+  padding: 0 180px 80px;
+}
+
+.work__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 55px;
+}
+
+.work__card-item h3 {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #868686;
+  position: relative;
+  padding: 0 0 5px 0;
+}
+
+.work__card-item h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 60px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #868686;
+}
+
+.work__card-item p {
+  padding: 0;
+  margin: 0px 0px 0px 0px;
+  font-size: 15px;
+}
+
+/*hexagon*/
+.hex {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 2;
+  fill: #fff;
+}
+
+.hexagon,
+.hexagon::before,
+.hexagon::after,
+.fill,
+.fill::before,
+.fill::after,
+.hex {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hexagon,
+.hexagon::before,
+.hexagon::after {
+  background-color: #fe8682;
+}
+
+.fill,
+.fill::before,
+.fill::after {
+  background-color: #fc635e;
+}
+
+.hexagon::before,
+.hexagon::after {
+  -webkit-transform: translateX(-50%) scaleY(0.7) rotate(45deg);
+          transform: translateX(-50%) scaleY(0.7) rotate(45deg);
+}
+
+.hexagon {
+  position: relative;
+  margin: 4rem auto;
+  width: 7.7rem;
+  height: 4rem;
+  font-size: 2rem;
+}
+
+.hexagon::before,
+.hexagon::after {
+  content: "";
+  position: absolute;
+  width: 5.4rem;
+  height: 5.4rem;
+}
+
+.hexagon::before {
+  top: -2.7rem;
+  left: 50%;
+}
+
+.hexagon::after {
+  bottom: -2.7rem;
+  left: 50%;
+}
+
+.hexagon:hover {
+  background-color: #fc635e;
+}
+
+.hexagon:hover .hex {
+  fill: #fc635e;
+}
+
+.hexagon:hover::after {
+  background-color: #fc635e;
+}
+
+.hexagon:hover::before {
+  background-color: #fc635e;
+}
+
+.hexagon:hover .fill {
+  background-color: #fff;
+}
+
+.hexagon:hover .fill::after {
+  background-color: #fff;
+}
+
+.hexagon:hover .fill::before {
+  background-color: #fff;
+}
+
+.fill {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 7rem;
+  height: 3.5rem;
+  z-index: 1;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.fill::before,
+.fill::after {
+  content: "";
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  -webkit-transform: scaleY(0.7) rotate(45deg);
+          transform: scaleY(0.7) rotate(45deg);
+}
+
+.fill::before {
+  top: -2.5rem;
+  left: 1rem;
+}
+
+.fill::after {
+  bottom: -2.5rem;
+  left: 1rem;
+}
+
+/*hexagon*/
+.btn__white {
+  margin: 0 auto;
+  background-color: transparent;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.btn__white::after {
+  color: #fc635e;
+}
+
+.btn__white:hover {
+  background-color: #fc635e;
+}
+
+.btn__white:hover::after {
+  color: #fff;
+}
+
+/* ---------------------------
+  ! Second__page END
+  --------------------------- */
+/* ---------------------------
+!Third__page
+--------------------------- */
+.expand {
+  background-image: url(../img/background/second__bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.expand::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.expand__row {
+  padding: 100px 0;
+}
+
+.expand__item {
+  text-align: center;
+  width: 100%;
+  border: 8px solid #fff;
+  padding: 150px 0;
+}
+
+.expand__item h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+
+.expand__item h1 span {
+  color: #fc635e;
+}
+
+/* ---------------------------
+  ! Third__page END
+  --------------------------- */
+/* ---------------------------
+! Fourth__page
+--------------------------- */
+.process {
+  font-family: "PF Encore Sans Pro", sans-serif;
+  text-align: center;
+}
+
+/* ---------------------------
+  ! Fourth__page END
+  --------------------------- */
+/* ---------------------------
+! Five__page
+--------------------------- */
+.marketing {
+  font-family: "PF Encore Sans Pro", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.marketing__row {
+  padding: 60px 0px 15px;
+  text-align: center;
+}
+
+.marketing__row h2 {
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #868686;
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #adadad;
+  padding-bottom: 10px;
+}
+
+.marketing__row h2 span {
+  color: #fc635e;
+}
+
+.marketing__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 65px;
+}
+
+.marketing__left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+  text-align: left;
+}
+
+.marketing__left h3 {
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #868686;
+  border-left: 10px solid #fc635e;
+  padding-left: 12px;
+  margin: 28px 0 0;
+}
+
+.marketing__left p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #adadad;
+  padding-right: 35px;
+  margin-bottom: 45px;
+}
+
+.marketing__left a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #f2f2f2;
+  border: 1px solid #fc635e;
+  background-color: #fc635e;
+  border-radius: 10px;
+  padding: 10px 25px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.marketing__left a:hover {
+  color: #fc635e;
+  background-color: transparent;
+}
+
+.marketing__rigth {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 55%;
+          flex: 0 0 55%;
+  text-align: right;
+  margin-bottom: 55px;
+}
+
+/* ---------------------------
+  ! Five__page END
+  --------------------------- */
+/* ---------------------------
+! Six__page
+--------------------------- */
+.advertising {
+  background-color: #fff;
+}
+
+.advertising__body {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse;
+          flex-flow: row-reverse;
+}
+
+.advertising__left {
+  text-align: right;
+}
+
+.advertising__left h3 {
+  border-right: 10px solid #fc635e;
+  border-left: none;
+  padding-right: 12px;
+}
+
+.advertising__left p {
+  padding-right: 0;
+  padding-left: 35px;
+}
+
+.advertising__rigth {
+  text-align: left;
+}
+
+/* ---------------------------
+  ! Six__page END
+  --------------------------- */
+/* ---------------------------
+! Seven__page
+--------------------------- */
+/* ---------------------------
+! Seven__page END
+--------------------------- */
+/* ---------------------------
+! Eight__page
+--------------------------- */
+.portfolio {
+  text-align: center;
+  padding-top: 80px;
+  font-family: "PF Encore Sans Pro", sans-serif;
+}
+
+.portfolio h2 {
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #868686;
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #adadad;
+  padding-bottom: 10px;
+}
+
+.portfolio__row {
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+.portfolio__nav {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #adadad;
+}
+
+.portfolio__nav-item {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.portfolio__nav-link {
+  list-style: none;
+  position: relative;
+}
+
+.portfolio__nav-link::after {
+  content: "/";
+  color: #adadad;
+  right: -55px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.portfolio__nav-link:last-child a {
+  padding: 0px 0px 0px 0px;
+}
+
+.portfolio__nav-link:last-child::after {
+  display: none;
+}
+
+.portfolio__nav-link a {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fc635e;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-bottom: 3px solid transparent;
+}
+
+.portfolio__nav-link a:hover {
+  color: #adadad;
+  border-bottom: 3px solid #fc635e;
+}
+
+.portfolio__block {
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.portfolio__block-left,
+.portfolio__block-rigth {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 470px;
+          flex: 0 0 470px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block__img {
+  height: 200px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto 0px 15px 0px;
+  position: relative;
+}
+
+.block__img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba(252, 99, 94, 0.8);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.block__img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.block__img:nth-child(2) {
+  margin: 0px 0px 0px 0px;
+}
+
+.block__img:nth-child(3) {
+  margin: 0px 0px 0px 0px;
+}
+
+.block__img .portfolio__block-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  margin: 0px 0px 0px 0px;
+  opacity: 0;
+  background-image: url(../img/icons/plus.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.block__img .portfolio__block-text p {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.block__img:hover::after,
+.block__img .portfolio__block-text:hover {
+  opacity: 1;
+}
+
+.btn__portfolio {
+  font-size: 20px;
+  color: #fff;
+  width: auto;
+  background-color: #fc635e;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  margin: 60px auto 25px;
+}
+
+.btn__portfolio:hover {
+  background-color: #fff;
+  color: #fc635e;
+}
+
+/* ---------------------------
+  ! Staff__page
+  --------------------------- */
+.staff {
+  font-family: "PF Encore Sans Pro", sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.staff h2 {
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #868686;
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #adadad;
+  padding-bottom: 10px;
+  margin: 0px 0px 0px 0px;
+}
+
+.staff h2 span {
+  color: #fc635e;
+}
+
+.staff__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 75px 0px;
+}
+
+.staff__card {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 280px;
+          flex: 0 0 280px;
+}
+
+.staff__card h3 {
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #565656;
+  position: relative;
+  display: inline-block;
+  margin: 0px 0px 0px 0px;
+}
+
+.staff__card h3 span {
+  color: #fc635e;
+}
+
+.staff__card p {
+  font-size: 21px;
+  font-weight: 300;
+  color: #adadad;
+}
+
+.staff__card-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.staff__card-link a {
+  margin: 0px 17px;
+  position: relative;
+}
+
+.staff__card-link a:nth-child(odd) {
+  margin: 0px 0px 0px 0px;
+}
+
+.staff__card-link a img {
+  display: block;
+}
+
+/* ---------------------------
+  ! Eight__page END
+  --------------------------- */
+/* ---------------------------
+! Footer
+--------------------------- */
+/* ---------------------------
+! Footer END
+--------------------------- */
+/* ---------------------------
+! Media-queries
+--------------------------- */
+@media only screen and (max-width: 767px) {
+  body.lock {
+    overflow: hidden;
+  }
+  .header__logo {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 90px;
+            flex: 0 0 90px;
+  }
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+  }
+  .header__burger span {
+    position: absolute;
+    background-color: #fd4c04;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 9px;
+    -webkit-transition: ease-in-out 0.3s all;
+    transition: ease-in-out 0.3s all;
+  }
+  .header__burger:before,
+  .header__burger:after {
+    content: "";
+    background-color: #fd4c04;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    -webkit-transition: ease-in-out 0.3s all;
+    transition: ease-in-out 0.3s all;
+  }
+  .header__burger:before {
+    top: 0;
+  }
+  .header__burger:after {
+    bottom: 0;
+  }
+  .header__burger.active:before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 9px;
+  }
+  .header__burger.active:after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .header__burger.active span {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .header__nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 70px 10px 20px 10px;
+    -webkit-transition: ease-in-out 0.3s all;
+    transition: ease-in-out 0.3s all;
+    overflow: auto;
+  }
+  .header__nav.active {
+    top: 0;
+  }
+  .header__nav ul {
+    display: block;
+  }
+  .header__nav li {
+    padding: 0px 0px 20px 0px;
+  }
+  .header__nav ul li a {
+    margin: 0px 0px 20px 0px;
+    padding: 0;
+    color: #fd4c04;
+  }
+}
+
+/* ---------------------------
+  ! Media-queries END
+  --------------------------- */
